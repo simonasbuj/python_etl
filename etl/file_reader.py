@@ -11,4 +11,6 @@ class FileReader():
 
     def we_be(self):
         print("yes and we are using logger")
-        self.logger.log("MY MESSAGE")
+        self.logger.log("MY MESSAGE FROM FILE READER BOY")
+        # msg = {"message": "hi different format", "error": "304 it broke"}
+        # self.logger.log(msg)
