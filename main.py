@@ -1,2 +1,6 @@
+from etl.file_reader import FileReader
+
+
 if __name__ == "__main__":
-    print ('we out here')
+    file_reader = FileReader()
+    file_reader.we_be()
